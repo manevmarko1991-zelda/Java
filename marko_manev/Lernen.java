@@ -42,13 +42,15 @@ System.out.println(num);
        //&& both true,         ||at least one true,              == true if both  values are the same,       !=true if the values are different
 	  
 		 */
-		
+		/*
 		Scanner scanner =new Scanner(System.in);
 		System.out.println("Give me u age:");
 		int answer = scanner.nextInt();
 		if  (answer <= 20){System.out.println("u are a teenager");}
 		else if (answer <= 50) {System.out.println("You are young");}
 		else  {System.out.println("u are a mature person not a kid");}
+		*/
 		
+	       //*********posle da ja napravam vezbata *********
 	
 	}}
