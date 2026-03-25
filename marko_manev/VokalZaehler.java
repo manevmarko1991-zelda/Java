@@ -38,7 +38,7 @@ public class VokalZaehler {
        System.out.println("Rekursionstiefe: " + tiefe + " -> zaehleVokale(" + index + ", " + tiefe + "), aktueller Buchstabe: '" + text.charAt(index) + "', count: " + count);
 
        // Rekursiver Aufruf mit dem nächsten Buchstaben und Erhöhung der Rekursionstiefe
-       return zaehleVokale(text, index - 1, tiefe + 1) + count;
+       return zaehleVokale(text, index -1, tiefe + 1) + count;
    }
 }
 
